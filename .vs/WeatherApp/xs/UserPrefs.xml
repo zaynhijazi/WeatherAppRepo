@@ -1,5 +1,12 @@
 ﻿<Properties StartupConfiguration="{11FBAE9D-6C89-4752-B34C-D1E6F03C37A9}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WeatherApp.Common FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.WeatherApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.WeatherData.Business FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <Breakpoint file="/Users/husam/Projects/WeatherApp/WeatherApp/Controllers/HomeController.cs" relfile="WeatherApp/Controllers/HomeController.cs" line="20" column="5" />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApp/Controllers/HomeController.cs">
     <Files>
       <File FileName="WeatherApp/Program.cs" />
@@ -21,12 +28,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WeatherApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/husam/Projects/WeatherApp/WeatherApp/Controllers/HomeController.cs" relfile="WeatherApp/Controllers/HomeController.cs" line="20" column="5" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

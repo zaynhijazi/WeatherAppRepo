@@ -1,9 +1,10 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using OpenMeteo;
 using WeatherApp.Models;
 using WeatherApp.WeatherService;
-
+using WeatherApp.Common;
 namespace WeatherApp.Controllers;
 
 public class HomeController : Controller
@@ -19,24 +20,19 @@ public class HomeController : Controller
 
     public async Task<IActionResult> Index()
     {
-        // Define the latitude and longitude parameters
+        // Define the latitude and longitude parameters, this is the lat and long of my zipcode.
         double latitude = 38.9194;
         double longitude = -76.7871;
-
-        //// Define the URL of the weather API
-        //string baseUrl = "https://api.open-meteo.com/v1/forecast";
-
-        //// Define the query string
-        //string queryString = $"?latitude={latitude.ToString()}&longitude={longitude.ToString()}";
-
-        //// Combine the base URL and query string to form the request URL
-        //string requestUrl = baseUrl + queryString;
 
         string apiUrl = "https://api.open-meteo.com/v1/forecast";
         string currentParameters = "temperature_2m,relative_humidity_2m,apparent_temperature,is_day,precipitation,rain,showers,snowfall,weather_code,cloud_cover,pressure_msl,surface_pressure,wind_speed_10m,wind_direction_10m,wind_gusts_10m";
         string queryString = $"?latitude={latitude.ToString()}&longitude={longitude.ToString()}";
-        string queryString1 = $"&current ={ currentParameters}";
-        string requestUrl = apiUrl + queryString + queryString1;
+        string queryString1 = $"&current={currentParameters}&temperature_unit=fahrenheit&timezone=auto";
+
+        // Concatenate the base URL and query parameters
+        string finalUrl = apiUrl + queryString + queryString1;
+
+        Console.WriteLine("Final URL: " + finalUrl);
 
         // Create an instance of HttpClient
         using (HttpClient client = new HttpClient())
@@ -44,14 +40,14 @@ public class HomeController : Controller
             try
             {
                 // Send a GET request to the API and get the response
-                HttpResponseMessage response = await client.GetAsync(requestUrl);
+                HttpResponseMessage response = await client.GetAsync(finalUrl);
 
                 // Check if the response is successful (status code 200)
                 if (response.IsSuccessStatusCode)
                 {
                     // Read the response content as a string
                     string responseBody = await response.Content.ReadAsStringAsync();
-
+                    WeatherData data = JsonConvert.DeserializeObject<WeatherData>(responseBody);
                     // Process the response body as needed
                     Console.WriteLine(responseBody);
                 }

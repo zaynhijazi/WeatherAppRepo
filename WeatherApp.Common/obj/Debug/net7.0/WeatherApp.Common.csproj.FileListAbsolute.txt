@@ -1,0 +1,12 @@
+/Users/husam/Projects/WeatherApp/WeatherApp.Common/bin/Debug/net7.0/WeatherApp.Common.deps.json
+/Users/husam/Projects/WeatherApp/WeatherApp.Common/bin/Debug/net7.0/WeatherApp.Common.dll
+/Users/husam/Projects/WeatherApp/WeatherApp.Common/bin/Debug/net7.0/WeatherApp.Common.pdb
+/Users/husam/Projects/WeatherApp/WeatherApp.Common/obj/Debug/net7.0/WeatherApp.Common.csproj.AssemblyReference.cache
+/Users/husam/Projects/WeatherApp/WeatherApp.Common/obj/Debug/net7.0/WeatherApp.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/husam/Projects/WeatherApp/WeatherApp.Common/obj/Debug/net7.0/WeatherApp.Common.AssemblyInfoInputs.cache
+/Users/husam/Projects/WeatherApp/WeatherApp.Common/obj/Debug/net7.0/WeatherApp.Common.AssemblyInfo.cs
+/Users/husam/Projects/WeatherApp/WeatherApp.Common/obj/Debug/net7.0/WeatherApp.Common.csproj.CoreCompileInputs.cache
+/Users/husam/Projects/WeatherApp/WeatherApp.Common/obj/Debug/net7.0/WeatherApp.Common.dll
+/Users/husam/Projects/WeatherApp/WeatherApp.Common/obj/Debug/net7.0/refint/WeatherApp.Common.dll
+/Users/husam/Projects/WeatherApp/WeatherApp.Common/obj/Debug/net7.0/WeatherApp.Common.pdb
+/Users/husam/Projects/WeatherApp/WeatherApp.Common/obj/Debug/net7.0/ref/WeatherApp.Common.dll

@@ -31,3 +31,6 @@
 /Users/husam/Projects/WeatherApp/WeatherApp/obj/Debug/net7.0/WeatherApp.pdb
 /Users/husam/Projects/WeatherApp/WeatherApp/obj/Debug/net7.0/WeatherApp.genruntimeconfig.cache
 /Users/husam/Projects/WeatherApp/WeatherApp/obj/Debug/net7.0/ref/WeatherApp.dll
+/Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/WeatherApp.Common.dll
+/Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/WeatherApp.Common.pdb

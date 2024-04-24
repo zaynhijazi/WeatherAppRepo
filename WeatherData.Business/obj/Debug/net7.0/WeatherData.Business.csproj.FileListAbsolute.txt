@@ -1,0 +1,12 @@
+/Users/husam/Projects/WeatherApp/WeatherData.Business/bin/Debug/net7.0/WeatherData.Business.deps.json
+/Users/husam/Projects/WeatherApp/WeatherData.Business/bin/Debug/net7.0/WeatherData.Business.dll
+/Users/husam/Projects/WeatherApp/WeatherData.Business/bin/Debug/net7.0/WeatherData.Business.pdb
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherData.Business.csproj.AssemblyReference.cache
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherData.Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherData.Business.AssemblyInfoInputs.cache
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherData.Business.AssemblyInfo.cs
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherData.Business.csproj.CoreCompileInputs.cache
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherData.Business.dll
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/refint/WeatherData.Business.dll
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherData.Business.pdb
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/ref/WeatherData.Business.dll
