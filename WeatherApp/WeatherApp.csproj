@@ -14,9 +14,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="WeatherService\" />
+    <None Remove="Models\Home\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="WeatherService\" />
+    <Folder Include="Models\Home\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WeatherApp.Common\WeatherApp.Common.csproj">

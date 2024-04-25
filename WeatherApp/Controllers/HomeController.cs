@@ -5,6 +5,8 @@ using OpenMeteo;
 using WeatherApp.Models;
 using WeatherApp.WeatherService;
 using WeatherApp.Common;
+using WeatherApp.Models.Home;
+
 namespace WeatherApp.Controllers;
 
 public class HomeController : Controller
@@ -61,10 +63,15 @@ public class HomeController : Controller
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
         }
-
-        return View();
+        HomeViewModel viewModel = new HomeViewModel();
+        return View(viewModel);
     }
 
+    [HttpPost]
+    public IActionResult Index(HomeViewModel viewModel)
+    {
+        return View();
+    }
 
     public IActionResult Privacy()
     {

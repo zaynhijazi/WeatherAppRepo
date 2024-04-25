@@ -1,4 +1,5 @@
-﻿@{
+﻿@model WeatherApp.Models.Home.HomeViewModel;
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -6,4 +7,13 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<form asp-controller="Home" asp-action="Index">
+    <div class="mb-3">
+        <label asp-for="ZipCode" class="form-label"></label>
+        <input asp-for="ZipCode" type="text" class="form-control">
+        <span asp-validation-for="ZipCode" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 
