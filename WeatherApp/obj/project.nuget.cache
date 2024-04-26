@@ -1,9 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "kH/0NyRgSlno1W1AM7uW5UMIYEHAZhjlTu9mP9X4QURTNQsq0uJbRJrU7ARAjZH9eZf3Q7qfu+Sk/2+8GAwZzQ==",
+  "dgSpecHash": "ly1iSwOk+tmTya82AVRJvAvfwMGmNcxWBqw00l5gcHEW6Wf4vXfJg5rHZhwp41986kWgXWXPLSLaW2UzoKTo/w==",
   "success": true,
   "projectFilePath": "/Users/husam/Projects/WeatherApp/WeatherApp/WeatherApp.csproj",
   "expectedPackageFiles": [
+    "/Users/husam/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/husam/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/husam/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/husam/.nuget/packages/microsoft.extensions.http/8.0.0/microsoft.extensions.http.8.0.0.nupkg.sha512",
+    "/Users/husam/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/Users/husam/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/husam/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/Users/husam/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "/Users/husam/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/husam/.nuget/packages/openmeteo.dotnet/2.0.0/openmeteo.dotnet.2.0.0.nupkg.sha512",
     "/Users/husam/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp", "WeatherApp\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Common", "WeatherApp.Common\WeatherApp.Common.csproj", "{DD7396DD-5E6A-4E85-8743-2CF7444A3CC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherData.Business", "WeatherData.Business\WeatherData.Business.csproj", "{6F6B6278-0618-41B2-A957-57D49E35A079}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp.Business", "WeatherData.Business\WeatherApp.Business.csproj", "{6F6B6278-0618-41B2-A957-57D49E35A079}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,15 @@
+/Users/husam/Projects/WeatherApp/WeatherData.Business/bin/Debug/net7.0/WeatherApp.Business.deps.json
+/Users/husam/Projects/WeatherApp/WeatherData.Business/bin/Debug/net7.0/WeatherApp.Business.dll
+/Users/husam/Projects/WeatherApp/WeatherData.Business/bin/Debug/net7.0/WeatherApp.Business.pdb
+/Users/husam/Projects/WeatherApp/WeatherData.Business/bin/Debug/net7.0/WeatherApp.Common.dll
+/Users/husam/Projects/WeatherApp/WeatherData.Business/bin/Debug/net7.0/WeatherApp.Common.pdb
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherApp.Business.csproj.AssemblyReference.cache
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherApp.Business.GeneratedMSBuildEditorConfig.editorconfig
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherApp.Business.AssemblyInfoInputs.cache
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherApp.Business.AssemblyInfo.cs
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherApp.Business.csproj.CoreCompileInputs.cache
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherApp.Business.csproj.CopyComplete
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherApp.Business.dll
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/refint/WeatherApp.Business.dll
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/WeatherApp.Business.pdb
+/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/Debug/net7.0/ref/WeatherApp.Business.dll

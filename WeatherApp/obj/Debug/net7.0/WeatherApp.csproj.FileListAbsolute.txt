@@ -34,3 +34,13 @@
 /Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/WeatherApp.Common.dll
 /Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/WeatherApp.Common.pdb
+/Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/Microsoft.Extensions.Http.dll
+/Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/Microsoft.Extensions.Logging.dll
+/Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
+/Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/WeatherApp.Business.dll
+/Users/husam/Projects/WeatherApp/WeatherApp/bin/Debug/net7.0/WeatherApp.Business.pdb

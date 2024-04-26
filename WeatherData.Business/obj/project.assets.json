@@ -14,6 +14,16 @@
             "related": ".xml"
           }
         }
+      },
+      "WeatherApp.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/WeatherApp.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeatherApp.Common.dll": {}
+        }
       }
     }
   },
@@ -47,11 +57,17 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "WeatherApp.Common/1.0.0": {
+      "type": "project",
+      "path": "../WeatherApp.Common/WeatherApp.Common.csproj",
+      "msbuildProject": "../WeatherApp.Common/WeatherApp.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Newtonsoft.Json >= 13.0.3"
+      "Newtonsoft.Json >= 13.0.3",
+      "WeatherApp.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -60,9 +76,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/husam/Projects/WeatherApp/WeatherData.Business/WeatherData.Business.csproj",
-      "projectName": "WeatherData.Business",
-      "projectPath": "/Users/husam/Projects/WeatherApp/WeatherData.Business/WeatherData.Business.csproj",
+      "projectUniqueName": "/Users/husam/Projects/WeatherApp/WeatherData.Business/WeatherApp.Business.csproj",
+      "projectName": "WeatherApp.Business",
+      "projectPath": "/Users/husam/Projects/WeatherApp/WeatherData.Business/WeatherApp.Business.csproj",
       "packagesPath": "/Users/husam/.nuget/packages/",
       "outputPath": "/Users/husam/Projects/WeatherApp/WeatherData.Business/obj/",
       "projectStyle": "PackageReference",
@@ -79,7 +95,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/husam/Projects/WeatherApp/WeatherApp.Common/WeatherApp.Common.csproj": {
+              "projectPath": "/Users/husam/Projects/WeatherApp/WeatherApp.Common/WeatherApp.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

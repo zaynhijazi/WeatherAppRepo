@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s9DN+vMzGdCt21USSx36mThp8eimRlR/pt0V6XG6pKGuxqm+fVzkS6Wcj1E2GSpEJU/GGbAfPglJAkviDcSSig==",
+  "dgSpecHash": "MEiXBWcVrWeuWFYl17iUO3LM81chOPFZMy6QS01jffygot2V9ERWmyTOrTxAHzBl4zZyjSQxrMqdFb9wVrVjxg==",
   "success": true,
-  "projectFilePath": "/Users/husam/Projects/WeatherApp/WeatherData.Business/WeatherData.Business.csproj",
+  "projectFilePath": "/Users/husam/Projects/WeatherApp/WeatherData.Business/WeatherApp.Business.csproj",
   "expectedPackageFiles": [
     "/Users/husam/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
   ],

@@ -1,5 +1,7 @@
-﻿using WeatherApp.WeatherService;
+﻿using WeatherApp.Business;
+using WeatherApp.WeatherService;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddHttpClient<IWeatherDataClient, WeatherDataService>();
 
 // Add services to the container.
 builder.Services.AddScoped<IWeatherService, WeatherService>();
