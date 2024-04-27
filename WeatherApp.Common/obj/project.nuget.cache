@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cBbs9xDwtEM13efVb4SKTQNOizsOHYB1BRy5wEjTJs88n842Eed408UBAJCG/jy07N6tLQY3UshQ66sr/YX0zg==",
+  "dgSpecHash": "9LykR3tB7JvQMZ3NpeNDZHtxb8ya2dvqsqBcDSFv2igEDlhO/Smwk3nPPMtx5ZSJNQ8WIuEu3prEzv1K301fQw==",
   "success": true,
   "projectFilePath": "/Users/husam/Projects/WeatherApp/WeatherApp.Common/WeatherApp.Common.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/husam/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

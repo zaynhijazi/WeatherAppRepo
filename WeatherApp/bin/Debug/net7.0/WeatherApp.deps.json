@@ -148,6 +148,9 @@
         }
       },
       "WeatherApp.Common/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
         "runtime": {
           "WeatherApp.Common.dll": {}
         }

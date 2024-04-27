@@ -2,6 +2,7 @@
 using WeatherApp.WeatherService;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddHttpClient<IWeatherDataClient, WeatherDataService>();
+builder.Services.AddHttpClient<IAreaClient, AreaService>();
 
 // Add services to the container.
 builder.Services.AddScoped<IWeatherService, WeatherService>();
