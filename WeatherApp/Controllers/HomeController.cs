@@ -24,9 +24,6 @@ public class HomeController : Controller
 
     public async Task<IActionResult> Index()
     {
-        // Define the latitude and longitude parameters, this is the lat and long of my zipcode.
-        //double latitude = 38.9194;
-        //double longitude = -76.7871;
         HomeViewModel viewModel = new HomeViewModel();
         return View(viewModel);
     }
@@ -42,14 +39,14 @@ public class HomeController : Controller
         }
         catch(HttpRequestException ex)
         {
-            var name = new StackTrace(ex).GetFrame(0).GetMethod().Name;
-            if(String.Equals("GetCurrentWeather", name))
+            string callStack = ex.StackTrace;
+            if (callStack.Contains("GetAreaDetails"))
             {
-                Console.WriteLine("The Weather API has an issue");
+                Console.WriteLine("We couldn't establish a connection or the zip code that was given is not a valid zip code.");
             }
             else
             {
-                Console.WriteLine("The ZipCode API has an issue");
+                Console.WriteLine("The Weather API has an issue");
             }
         } 
         return View();

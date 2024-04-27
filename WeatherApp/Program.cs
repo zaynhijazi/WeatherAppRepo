@@ -7,6 +7,7 @@ builder.Services.AddHttpClient<IAreaClient, AreaService>();
 // Add services to the container.
 builder.Services.AddScoped<IWeatherService, WeatherService>();
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 
 var app = builder.Build();
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ES73t1eqkavp0zOFvLDqIegNCVhnnj35jdVKfSRcP08=",
+  "Hash": "4dKcdx/ZN0KqbvON7G15XT1wlqExeMRoV0wex3JJ7P8=",
   "Source": "WeatherApp",
   "BasePath": "_content/WeatherApp",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/weather-app-phone-pic.jpeg",
+      "SourceId": "WeatherApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/",
+      "BasePath": "_content/WeatherApp",
+      "RelativePath": "weather-app-phone-pic.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/weather-app-phone-pic.jpeg"
     }
   ]
 }
