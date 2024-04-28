@@ -5,6 +5,62 @@
       "PackagePath": "staticwebassets/WeatherApp.bundle.scp.css"
     },
     {
+      "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/Weather-App-Images/.DS_Store",
+      "PackagePath": "staticwebassets/Weather-App-Images/.DS_Store"
+    },
+    {
+      "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/Weather-App-Images/clear-sky/clear-sky-day.png",
+      "PackagePath": "staticwebassets/Weather-App-Images/clear-sky/clear-sky-day.png"
+    },
+    {
+      "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/Weather-App-Images/clear-sky/clear-sky-night.png",
+      "PackagePath": "staticwebassets/Weather-App-Images/clear-sky/clear-sky-night.png"
+    },
+    {
+      "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/Weather-App-Images/drizzle/drizzle-day.png",
+      "PackagePath": "staticwebassets/Weather-App-Images/drizzle/drizzle-day.png"
+    },
+    {
+      "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/Weather-App-Images/drizzle/drizzle-night.png",
+      "PackagePath": "staticwebassets/Weather-App-Images/drizzle/drizzle-night.png"
+    },
+    {
+      "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/Weather-App-Images/fog.png",
+      "PackagePath": "staticwebassets/Weather-App-Images/fog.png"
+    },
+    {
+      "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/Weather-App-Images/partly-cloudy/partly-cloudy-day.png",
+      "PackagePath": "staticwebassets/Weather-App-Images/partly-cloudy/partly-cloudy-day.png"
+    },
+    {
+      "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/Weather-App-Images/partly-cloudy/partly-cloudy-night.png",
+      "PackagePath": "staticwebassets/Weather-App-Images/partly-cloudy/partly-cloudy-night.png"
+    },
+    {
+      "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/Weather-App-Images/rain/freezing-rain.png",
+      "PackagePath": "staticwebassets/Weather-App-Images/rain/freezing-rain.png"
+    },
+    {
+      "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/Weather-App-Images/rain/rain-showers.png",
+      "PackagePath": "staticwebassets/Weather-App-Images/rain/rain-showers.png"
+    },
+    {
+      "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/Weather-App-Images/rain/rain.png",
+      "PackagePath": "staticwebassets/Weather-App-Images/rain/rain.png"
+    },
+    {
+      "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/Weather-App-Images/snow/snow-showers.png",
+      "PackagePath": "staticwebassets/Weather-App-Images/snow/snow-showers.png"
+    },
+    {
+      "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/Weather-App-Images/snow/snow.png",
+      "PackagePath": "staticwebassets/Weather-App-Images/snow/snow.png"
+    },
+    {
+      "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/Weather-App-Images/thunderstorm.png",
+      "PackagePath": "staticwebassets/Weather-App-Images/thunderstorm.png"
+    },
+    {
       "Id": "/Users/husam/Projects/WeatherApp/WeatherApp/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

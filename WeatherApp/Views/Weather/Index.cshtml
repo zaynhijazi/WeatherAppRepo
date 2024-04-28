@@ -1,0 +1,8 @@
+﻿@model WeatherApp.Models.Weather.WeatherViewModel
+
+<div class="weather-content d-flex flex-column align-items-center justify-content-center">
+    <img src=@Model.filePath />
+    <h2>@Model.PlaceName, @Model.State</h2>
+    <h3>@Model.CurrentTemperature ° F</h3>
+    <p>@Model.weatherDesc</p>
+</div>

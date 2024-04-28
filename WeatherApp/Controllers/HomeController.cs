@@ -6,6 +6,8 @@ using WeatherApp.Models;
 using WeatherApp.Common;
 using WeatherApp.Models.Home;
 using WeatherApp.Business;
+using WeatherApp.Helpers;
+using WeatherApp.Models.Weather;
 
 namespace WeatherApp.Controllers;
 
@@ -36,6 +38,17 @@ public class HomeController : Controller
         {
            Area area = await _areaClient.GetAreaDetails(viewModel.ZipCode);
            WeatherData weather = await _weatherDataClient.GetCurrentWeather(area.places[0].latitude, area.places[0].longitude);
+           Tuple<string,string> tuple = WeatherCodeInterpreter.InterpretWeatherCode(weather.current.weather_code, weather.current.is_day);
+            WeatherViewModel weatherviewModel = new WeatherViewModel
+            {
+                PlaceName = area.places[0].PlaceName,
+                State = area.places[0].state,
+                CurrentTemperature = (int)Math.Round(weather.current.temperature_2m), // Round up and convert to integer
+                WeatherCode = weather.current.weather_code,
+                filePath = tuple.Item1,
+                weatherDesc = tuple.Item2
+            };
+            return RedirectToAction("Index", "Weather", weatherviewModel);
         }
         catch(HttpRequestException ex)
         {

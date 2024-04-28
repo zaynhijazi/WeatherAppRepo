@@ -16,10 +16,16 @@
   <ItemGroup>
     <None Remove="WeatherService\" />
     <None Remove="Models\Home\" />
+    <None Remove="Helpers\" />
+    <None Remove="Models\Weather\" />
+    <None Remove="Views\Weather\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="WeatherService\" />
     <Folder Include="Models\Home\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Models\Weather\" />
+    <Folder Include="Views\Weather\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WeatherApp.Common\WeatherApp.Common.csproj">

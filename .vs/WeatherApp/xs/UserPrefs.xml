@@ -1,39 +1,42 @@
 ﻿<Properties StartupConfiguration="{11FBAE9D-6C89-4752-B34C-D1E6F03C37A9}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <Breakpoint file="/Users/husam/Projects/WeatherApp/WeatherApp/Controllers/HomeController.cs" relfile="WeatherApp/Controllers/HomeController.cs" line="23" column="5" />
-    <Breakpoint file="/Users/husam/Projects/WeatherApp/WeatherApp/Controllers/HomeController.cs" relfile="WeatherApp/Controllers/HomeController.cs" line="72" column="5" />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApp/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApp/Controllers/WeatherController.cs">
     <Files>
-      <File FileName="WeatherApp/Program.cs" />
-      <File FileName="WeatherApp/Views/Home/Index.cshtml" Line="18" Column="8" />
-      <File FileName="WeatherApp/Models/Home/HomeViewModel.cs" Line="10" Column="47" />
-      <File FileName="WeatherApp/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="WeatherApp/Controllers/HomeController.cs" Line="75" Column="1" />
+      <File FileName="WeatherApp/Controllers/HomeController.cs" Line="31" Column="6" />
+      <File FileName="WeatherData.Business/AreaService.cs" Line="34" Column="1" />
+      <File FileName="WeatherApp.Common/Area.cs" Line="1" Column="1" />
+      <File FileName="WeatherApp.Common/Place.cs" Line="1" Column="1" />
+      <File FileName="WeatherApp.Common/Current.cs" Line="1" Column="1" />
+      <File FileName="WeatherApp/Helpers/WeatherCodeInterprete.cs" Line="31" Column="90" />
+      <File FileName="WeatherApp/Models/Weather/WeatherViewModel.cs" Line="10" Column="49" />
+      <File FileName="WeatherApp/Controllers/WeatherController.cs" Line="17" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="WeatherApp" expanded="True">
             <Node name="WeatherApp" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Home" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="WeatherController.cs" selected="True" />
               </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Weather" expanded="True" />
               </Node>
             </Node>
+            <Node name="WeatherApp.Business" expanded="True" />
             <Node name="WeatherApp.Common" expanded="True" />
-            <Node name="WeatherData.Business" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WeatherApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/husam/Projects/WeatherApp/WeatherApp/Controllers/HomeController.cs" relfile="WeatherApp/Controllers/HomeController.cs" line="35" column="5" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WeatherApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
