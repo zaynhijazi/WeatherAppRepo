@@ -1,29 +1,21 @@
 ﻿<Properties StartupConfiguration="{11FBAE9D-6C89-4752-B34C-D1E6F03C37A9}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WeatherApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WeatherApp/Controllers/WeatherController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="docker-compose.yml">
     <Files>
-      <File FileName="WeatherApp/Controllers/HomeController.cs" Line="31" Column="6" />
-      <File FileName="WeatherData.Business/AreaService.cs" Line="34" Column="1" />
-      <File FileName="WeatherApp.Common/Area.cs" Line="1" Column="1" />
-      <File FileName="WeatherApp.Common/Place.cs" Line="1" Column="1" />
-      <File FileName="WeatherApp.Common/Current.cs" Line="1" Column="1" />
-      <File FileName="WeatherApp/Helpers/WeatherCodeInterprete.cs" Line="31" Column="90" />
-      <File FileName="WeatherApp/Models/Weather/WeatherViewModel.cs" Line="10" Column="49" />
-      <File FileName="WeatherApp/Controllers/WeatherController.cs" Line="17" Column="10" />
+      <File FileName="WeatherApp/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="WeatherApp/Dockerfile" Line="1" Column="1" />
+      <File FileName="docker-compose.yml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WeatherApp" expanded="True">
-            <Node name="WeatherApp" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="WeatherController.cs" selected="True" />
-              </Node>
-              <Node name="Helpers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Weather" expanded="True" />
-              </Node>
-            </Node>
+          <Node name="WeatherApp" expanded="True" selected="True">
+            <Node name="docker-compose" expanded="True" />
+            <Node name="WeatherApp" expanded="True" />
             <Node name="WeatherApp.Business" expanded="True" />
             <Node name="WeatherApp.Common" expanded="True" />
           </Node>
@@ -31,12 +23,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/husam/Projects/WeatherApp/WeatherApp/Controllers/HomeController.cs" relfile="WeatherApp/Controllers/HomeController.cs" line="35" column="5" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.WeatherApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

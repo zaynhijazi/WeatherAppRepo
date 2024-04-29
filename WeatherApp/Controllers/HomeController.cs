@@ -36,9 +36,9 @@ public class HomeController : Controller
         
         try
         {
-           Area area = await _areaClient.GetAreaDetails(viewModel.ZipCode);
-           WeatherData weather = await _weatherDataClient.GetCurrentWeather(area.places[0].latitude, area.places[0].longitude);
-           Tuple<string,string> tuple = WeatherCodeInterpreter.InterpretWeatherCode(weather.current.weather_code, weather.current.is_day);
+            Area area = await _areaClient.GetAreaDetails(viewModel.ZipCode);
+            WeatherData weather = await _weatherDataClient.GetCurrentWeather(area.places[0].latitude, area.places[0].longitude);
+            Tuple<string,string> tuple = WeatherCodeInterpreter.InterpretWeatherCode(weather.current.weather_code, weather.current.is_day);
             WeatherViewModel weatherviewModel = new WeatherViewModel
             {
                 PlaceName = area.places[0].PlaceName,
@@ -50,19 +50,19 @@ public class HomeController : Controller
             };
             return RedirectToAction("Index", "Weather", weatherviewModel);
         }
-        catch(HttpRequestException ex)
+        catch(Exception ex)
         {
-            string callStack = ex.StackTrace;
-            if (callStack.Contains("GetAreaDetails"))
+            if(String.Equals(ex.Message, "The Zip Code that was entered was incorrect. Please try another U.S. zip code"))
             {
-                Console.WriteLine("We couldn't establish a connection or the zip code that was given is not a valid zip code.");
+                _logger.LogError(ex, "Zip code not found");
+                return View("Error", new ErrorViewModel { ErrorMessage = ex.Message });
             }
             else
             {
-                Console.WriteLine("The Weather API has an issue");
+                _logger.LogError(ex, ex.Message);
+                return View("Error", new ErrorViewModel { ErrorMessage = "One of our services, are going through fixes." });
             }
         } 
-        return View();
     }
 
     public IActionResult Privacy()

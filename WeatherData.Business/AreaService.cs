@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using Newtonsoft.Json;
 using WeatherApp.Common;
 
@@ -22,7 +23,18 @@ namespace WeatherApp.Business
             
             using (var response = await _client.GetAsync(ZipCode, HttpCompletionOption.ResponseHeadersRead))
             {
-                response.EnsureSuccessStatusCode();
+                if (!response.IsSuccessStatusCode)
+                {
+                    if (response.StatusCode == HttpStatusCode.NotFound)
+                    {
+                        throw new Exception("The Zip Code that was entered was incorrect. Please try another U.S. zip code");
+                    }
+                    else
+                    {
+                        // Handle other error responses
+                        throw new HttpRequestException($"Unexpected status code: {response.StatusCode}");
+                    }
+                }
                 var stream = await response.Content.ReadAsStringAsync();
                 Area data = JsonConvert.DeserializeObject<Area>(stream);
                 return data;

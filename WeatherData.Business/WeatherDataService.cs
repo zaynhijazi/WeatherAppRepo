@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using Newtonsoft.Json;
 using WeatherApp.Common;
 namespace WeatherApp.Business
@@ -26,7 +27,11 @@ namespace WeatherApp.Business
 
             using (var response = await _client.GetAsync(finalUrl, HttpCompletionOption.ResponseHeadersRead))
             {
-                response.EnsureSuccessStatusCode();
+                if (!response.IsSuccessStatusCode)
+                {
+                     // Handle other error responses
+                     throw new HttpRequestException($"Unexpected status code: {response.StatusCode}");
+                }
                 var stream = await response.Content.ReadAsStringAsync();
                 WeatherData data = JsonConvert.DeserializeObject<WeatherData>(stream);
                 return data;
