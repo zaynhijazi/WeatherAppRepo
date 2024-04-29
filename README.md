@@ -12,10 +12,16 @@ Please note that the images and icons used on the weather page are provided by A
 # Docker command setup:
 Make sure to run these commands while you are currently in the WeatherAppRepo directory because the dockerfile lives there.
 # Build the Docker image
-```bash docker build --rm -t productive-dev/weather-app:latest . ```
+```
+docker build --rm -t productive-dev/weather-app:latest .
+```
 
 # List Docker images and filter by name
-```bash docker image ls | grep weather-app ```
+```
+docker image ls | grep weather-app 
+```
 
 # Run the Docker container
-```bash docker run --rm -p 5000:5000 -p 5001:5001 -e ASPNETCORE_HTTP_PORT=https://+:5001 -e ASPNETCORE_URLS=http://+:5000 productive-dev/weather-app ```
+```
+bash docker run --rm -p 5000:5000 -p 5001:5001 -e ASPNETCORE_HTTP_PORT=https://+:5001 -e ASPNETCORE_URLS=http://+:5000 productive-dev/weather-app
+```
