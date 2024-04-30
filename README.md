@@ -1,5 +1,5 @@
 # WeatherApp
-
+The link to the web app is here: http://ec2-18-216-128-162.us-east-2.compute.amazonaws.com/
 ## Overview
 WeatherApp is a web application that provides the current weather for any zip code in the United States. It utilizes two APIs to gather data:
 
